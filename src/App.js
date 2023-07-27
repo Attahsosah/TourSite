@@ -3,6 +3,7 @@ import Accomodations from './Components/Accomodations';
 import Atmosphere from './Components/Atmosphere';
 import Banner from './Components/Banner';
 import Features from './Components/Features';
+import Footer from './Components/Footer';
 import Gallery from './Components/Gallery';
 import HeroCarousel from './Components/HeroCarousel';
 import ImageCarousel from './Components/ImageCarousel';
@@ -45,6 +46,7 @@ function App() {
       <Accomodations />
       <VideoPlayer src='https://cdn.discordapp.com/attachments/800718490750418967/1126842099237654630/video_1080p.mp4'/>
        <Questions />
+       <Footer />
       
     </div>
   );
